@@ -1,3 +1,1 @@
-import { WebSocket } from 'ws'
-
-export { WebSocket }
+export { WebSocket } from 'ws'
