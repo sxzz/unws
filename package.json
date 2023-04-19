@@ -1,0 +1,55 @@
+{
+  "name": "unws",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.3.0",
+  "description": "Unified WebSocket API for Node.js, Bun and browser.",
+  "license": "MIT",
+  "homepage": "https://github.com/sxzz/unws#readme",
+  "bugs": {
+    "url": "https://github.com/sxzz/unws/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxzz/unws.git"
+  },
+  "files": [
+    "src"
+  ],
+  "main": "./src/index.js",
+  "module": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./src/index.d.ts",
+      "browser": "./src/browser.mjs",
+      "require": "./src/index.js",
+      "import": "./src/index.mjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+    "lint:fix": "pnpm run lint --fix",
+    "release": "bumpp && pnpm publish"
+  },
+  "peerDependencies": {
+    "ws": "*"
+  },
+  "devDependencies": {
+    "@sxzz/eslint-config-prettier": "^2.4.6",
+    "@sxzz/eslint-config-ts": "^2.4.6",
+    "@types/node": "^18.15.11",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.37.0",
+    "eslint-define-config": "^1.17.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.3",
+    "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=16.14.0"
+  }
+}
