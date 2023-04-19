@@ -7,9 +7,6 @@ devDependencies:
   '@sxzz/eslint-config-ts':
     specifier: ^2.4.6
     version: 2.4.6(eslint@8.37.0)(typescript@5.0.3)
-  '@types/node':
-    specifier: ^18.15.11
-    version: 18.15.11
   bumpp:
     specifier: ^9.1.0
     version: 9.1.0
@@ -206,10 +203,6 @@ packages:
     resolution: {integrity: sha512-Y/uImid8aAwrEA24/1tcRZwpxX3pIFTSilcNDKSPn+Y2iDywSEachzRuvgAYYLR3wpGXAsMbv5lvKLDZLeYPAw==}
     dependencies:
       '@types/unist': 2.0.6
-    dev: true
-
-  /@types/node@18.15.11:
-    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
