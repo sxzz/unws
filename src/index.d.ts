@@ -1,3 +1,1 @@
-type WS = WebSocket
-
-export type { WS as WebSocket }
+export { WebSocket, type MessageEvent }
