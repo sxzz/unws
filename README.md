@@ -2,10 +2,20 @@
 
 [![Unit Test](https://github.com/sxzz/unws/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/unws/actions/workflows/unit-test.yml)
 
+Unified WebSocket API for Node.js, Bun and modern browsers.
+
 ## Install
 
 ```bash
 npm i unws
+```
+
+## Usage
+
+```ts
+import { WebSocket } from 'unws'
+
+const ws = new WebSocket('ws://localhost:8080')
 ```
 
 ## Sponsors
