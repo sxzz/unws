@@ -2,7 +2,7 @@
 
 [![Unit Test](https://github.com/sxzz/unws/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/unws/actions/workflows/unit-test.yml)
 
-Unified WebSocket API for Node.js, Bun and modern browsers.
+Unified WebSocket API for Node.js, Bun and [modern browsers](https://caniuse.com/websockets).
 
 ## Install
 
