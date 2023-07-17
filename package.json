@@ -43,7 +43,7 @@
     "@sxzz/eslint-config-prettier": "^2.4.6",
     "@sxzz/eslint-config-ts": "^2.4.6",
     "bumpp": "^9.1.1",
-    "eslint": "^8.44.0",
+    "eslint": "^8.45.0",
     "eslint-define-config": "^1.21.0",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6",
