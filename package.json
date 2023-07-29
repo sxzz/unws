@@ -32,7 +32,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint . --ext .js,.ts,.jsx,.tsx,.json,.md",
+    "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
     "release": "bumpp && pnpm publish"
   },
@@ -40,16 +40,16 @@
     "ws": "*"
   },
   "devDependencies": {
-    "@sxzz/eslint-config-prettier": "^2.4.6",
-    "@sxzz/eslint-config-ts": "^2.4.6",
+    "@sxzz/eslint-config": "^3.2.3",
+    "@sxzz/prettier-config": "^1.0.4",
     "bumpp": "^9.1.1",
-    "eslint": "^8.45.0",
-    "eslint-define-config": "^1.21.0",
+    "eslint": "^8.46.0",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6",
     "ws": "^8.13.0"
   },
   "engines": {
     "node": ">=16.14.0"
-  }
+  },
+  "prettier": "@sxzz/prettier-config"
 }
