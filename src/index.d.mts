@@ -1,0 +1,1 @@
+export { WebSocket, type MessageEvent }

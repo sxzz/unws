@@ -21,7 +21,10 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "types": "./src/index.d.ts",
+      "types": {
+        "require": "./src/index.d.ts",
+        "import": "./src/index.d.mts"
+      },
       "browser": "./src/native.mjs",
       "bun": "./src/native.mjs",
       "require": "./src/node.js",
