@@ -1,7 +1,7 @@
 {
   "name": "unws",
   "version": "0.2.4",
-  "packageManager": "pnpm@8.7.4",
+  "packageManager": "pnpm@8.7.6",
   "description": "Unified WebSocket API for Node.js, Bun and modern browsers.",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/unws#readme",
