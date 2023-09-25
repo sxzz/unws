@@ -43,13 +43,13 @@
     "ws": "*"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.5.4",
+    "@sxzz/eslint-config": "^3.6.1",
     "@sxzz/prettier-config": "^1.0.4",
     "bumpp": "^9.2.0",
-    "eslint": "^8.49.0",
+    "eslint": "^8.50.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
-    "ws": "^8.14.1"
+    "ws": "^8.14.2"
   },
   "engines": {
     "node": ">=16.14.0"
