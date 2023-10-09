@@ -43,10 +43,10 @@
     "ws": "*"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.6.1",
+    "@sxzz/eslint-config": "^3.6.2",
     "@sxzz/prettier-config": "^1.0.4",
     "bumpp": "^9.2.0",
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
     "ws": "^8.14.2"
