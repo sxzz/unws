@@ -3,6 +3,7 @@
   "version": "0.2.4",
   "packageManager": "pnpm@9.4.0",
   "description": "Unified WebSocket API for Node.js, Bun and modern browsers.",
+  "type": "module",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/unws#readme",
   "bugs": {
@@ -19,7 +20,6 @@
   "module": "./src/node.mjs",
   "types": "./src/index.d.ts",
   "exports": {
-    "./package.json": "./package.json",
     ".": {
       "types": {
         "require": "./src/index.d.ts",
@@ -29,7 +29,8 @@
       "bun": "./src/native.mjs",
       "require": "./src/node.js",
       "import": "./src/node.mjs"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "publishConfig": {
     "access": "public"
