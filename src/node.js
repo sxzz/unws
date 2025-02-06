@@ -1,3 +1,1 @@
-const { WebSocket } = require('ws')
-
-module.exports.WebSocket = WebSocket
+export { WebSocket } from 'ws'

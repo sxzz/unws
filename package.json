@@ -17,19 +17,20 @@
   "files": [
     "src"
   ],
-  "main": "./src/node.js",
-  "module": "./src/node.mjs",
+  "main": "./src/node.cjs",
+  "module": "./src/node.js",
   "types": "./src/index.d.ts",
   "exports": {
     ".": {
       "types": {
-        "require": "./src/index.d.ts",
-        "import": "./src/index.d.mts"
+        "require": "./src/index.d.cts",
+        "import": "./src/index.d.ts"
       },
-      "browser": "./src/native.mjs",
-      "bun": "./src/native.mjs",
-      "require": "./src/node.js",
-      "import": "./src/node.mjs"
+      "node": {
+        "require": "./src/node.cjs",
+        "default": "./src/node.js"
+      },
+      "default": "./src/native.js"
     },
     "./package.json": "./package.json"
   },
