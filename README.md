@@ -18,6 +18,10 @@ import { WebSocket } from 'unws'
 const ws = new WebSocket('ws://localhost:8080')
 ```
 
+> [!TIP]
+> For Node.js v20.10.0 and above, the `WebSocket` global object is directly accessible without this package.
+> See [here](https://nodejs.org/api/globals.html#websocket).
+
 ## Sponsors
 
 <p align="center">
@@ -28,4 +32,4 @@ const ws = new WebSocket('ws://localhost:8080')
 
 ## License
 
-[MIT](./LICENSE) License © 2023 [三咲智子](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2023-PRESENT [三咲智子](https://github.com/sxzz)
