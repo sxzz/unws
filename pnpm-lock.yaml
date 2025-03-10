@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@sxzz/eslint-config':
-        specifier: ^6.0.0
+        specifier: ^6.0.1
         version: 6.0.1(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
       '@sxzz/prettier-config':
         specifier: ^2.2.1
