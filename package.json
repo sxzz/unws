@@ -1,6 +1,6 @@
 {
   "name": "unws",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "packageManager": "pnpm@10.10.0",
   "description": "Unified WebSocket API for Node.js, Bun and modern browsers.",
   "type": "module",
