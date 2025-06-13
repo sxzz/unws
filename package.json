@@ -1,7 +1,7 @@
 {
   "name": "unws",
   "version": "0.3.2",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.12.1",
   "description": "Unified WebSocket API for Node.js, Bun and modern browsers.",
   "type": "module",
   "license": "MIT",
@@ -47,10 +47,10 @@
     "ws": "*"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.0.1",
+    "@sxzz/eslint-config": "^7.0.2",
     "@sxzz/prettier-config": "^2.2.1",
-    "bumpp": "^10.1.0",
-    "eslint": "^9.26.0",
+    "bumpp": "^10.1.1",
+    "eslint": "^9.29.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
     "ws": "^8.18.2"
